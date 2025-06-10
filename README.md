@@ -261,4 +261,4 @@
 ### 🧠 Built-in Features
 1. **Slicing**
    - Syntax: `sequence[start:stop:step]`
-   - Works on: `str`, `list`, `tuple`
+   - Works on: `str`, `list`, `tuple` (works only on DS supports index based access)
