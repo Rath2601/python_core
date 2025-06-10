@@ -259,6 +259,60 @@
 - `all()`
 ---
 ### 🧠 Built-in Features
+
 1. **Slicing**
-   - Syntax: `sequence[start:stop:step]`
-   - Works on: `str`, `list`, `tuple` (works only on DS supports index based access)
+   - **Syntax**: `sequence[start:stop:step]`
+   - **Works on**: `str`, `list`, `tuple`, `range`
+   - **Note**: Only works on data structures that support index-based access
+
+2. **Indexing**
+   - **Syntax**: `sequence[index]`
+   - **Works on**: `str`, `list`, `tuple`, `range`, `bytes`
+
+3. **Unpacking**
+   - **Syntax**: `a, b, c = iterable`
+   - **Example**:
+     ```python
+     x, y, z = [1, 2, 3]
+     ```
+
+4. **Comprehensions**
+   - **Syntax**: `[expression for item in iterable if condition]`
+   - **Works on**: Lists, sets, dictionaries
+   - **Example**:
+     ```python
+     squares = [x**2 for x in range(5)]
+     ```
+
+5. **Membership Testing**
+   - **Syntax**: `value in sequence`, `value not in sequence`
+   - **Example**:
+     ```python
+     'a' in 'apple'     # True
+     3 not in [1, 2]    # True
+     ```
+
+6. **Iterable Unpacking (`*`)**
+   - **Syntax**: `first, *rest = iterable`
+   - **Example**:
+     ```python
+     a, *b = [1, 2, 3, 4]  # a = 1, b = [2, 3, 4]
+     ```
+
+7. **Functional Tools**
+   - **`zip()`** – Combine multiple iterables element-wise
+     ```python
+     zip([1, 2], ['a', 'b'])  # → (1, 'a'), (2, 'b')
+     ```
+   - **`map()`** – Apply a function to each item
+     ```python
+     map(str.upper, ['a', 'b'])  # → ['A', 'B']
+     ```
+   - **`filter()`** – Filter items using a condition
+     ```python
+     filter(str.isupper, 'AbCd')  # → ['A', 'C']
+     ```
+   - **`enumerate()`** – Get index and value pairs
+     ```python
+     enumerate(['a', 'b'])  # → (0, 'a'), (1, 'b')
+     ```
