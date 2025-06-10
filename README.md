@@ -23,7 +23,6 @@
 ---
 ## 🧰 Built-in Functionality
 - Strings are immutable (like Java).
-- Common `str` methods and `math` module for numeric ops.
 - Supports ASCII: `ord('a')` → 97, `chr(97)` → `'a'`
 ---
 ## ➕ Arithmetic Operators
@@ -139,3 +138,127 @@
 - Use `@dispatch` from `multipledispatch` for true overloading. default value & *args can be used for overloading
 ---
 
+## Python Built-in Methods and Features
+### 🔤 String Methods (`str`)
+- `capitalize()`
+- `casefold()`
+- `center()`
+- `count()`
+- `encode()`
+- `endswith()`
+- `expandtabs()`
+- `find()`
+- `format()`
+- `format_map()`
+- `index()`
+- `isalnum()`
+- `isalpha()`
+- `isascii()`
+- `isdecimal()`
+- `isdigit()`
+- `isidentifier()`
+- `islower()`
+- `isnumeric()`
+- `isprintable()`
+- `isspace()`
+- `istitle()`
+- `isupper()`
+- `join()`
+- `ljust()`
+- `lower()`
+- `lstrip()`
+- `maketrans()`
+- `partition()`
+- `replace()`
+- `rfind()`
+- `rindex()`
+- `rjust()`
+- `rpartition()`
+- `rsplit()`
+- `rstrip()`
+- `split()`
+- `splitlines()`
+- `startswith()`
+- `strip()`
+- `swapcase()`
+- `title()`
+- `translate()`
+- `upper()`
+- `zfill()`
+---
+### 📜 List Methods (`list`)
+- `append()`
+- `clear()`
+- `copy()`
+- `count()`
+- `extend()`
+- `index()`
+- `insert()`
+- `pop()`
+- `remove()`
+- `reverse()`
+- `sort()`
+---
+### 📦 Dictionary Methods (`dict`)
+- `clear()`
+- `copy()`
+- `fromkeys()`
+- `get()`
+- `items()`
+- `keys()`
+- `pop()`
+- `popitem()`
+- `setdefault()`
+- `update()`
+- `values()`
+---
+### 🎯 Set Methods (`set`)
+- `add()`
+- `clear()`
+- `copy()`
+- `difference()`
+- `difference_update()`
+- `discard()`
+- `intersection()`
+- `intersection_update()`
+- `isdisjoint()`
+- `issubset()`
+- `issuperset()`
+- `pop()`
+- `remove()`
+- `symmetric_difference()`
+- `symmetric_difference_update()`
+- `union()`
+- `update()`
+---
+### 🧵 Tuple Methods (`tuple`)
+- `count()`
+- `index()`
+---
+### ⚙️ Built-in Functions
+- `len()`
+- `type()`
+- `str()`
+- `int()`
+- `float()`
+- `list()`
+- `tuple()`
+- `set()`
+- `dict()`
+- `bool()`
+- `sum()`
+- `max()`
+- `min()`
+- `sorted()`
+- `reversed()`
+- `enumerate()`
+- `zip()`
+- `map()`
+- `filter()`
+- `any()`
+- `all()`
+---
+### 🧠 Built-in Features
+1. **Slicing**
+   - Syntax: `sequence[start:stop:step]`
+   - Works on: `str`, `list`, `tuple`
